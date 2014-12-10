@@ -1,0 +1,138 @@
+
+package random;
+
+import edu.umn.crisys.plexil.runtime.psx.JavaPlexilScript;
+import edu.umn.crisys.plexil.runtime.values.BooleanValue;
+import edu.umn.crisys.plexil.runtime.values.CommandHandleState;
+import edu.umn.crisys.plexil.runtime.values.IntegerValue;
+
+public class test0Script
+    extends JavaPlexilScript
+{
+
+
+    public test0Script() {
+        addEvent(simultaneous(stateChange(BooleanValue.get((true)), "target_in_view"), stateChange(IntegerValue.get((10)), "time")));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_drive", IntegerValue.get((10))));
+        addEvent(simultaneous(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"), commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"), stateChange(IntegerValue.get((42)), "time")));
+        addEvent(simultaneous(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"), commandAck(CommandHandleState.COMMAND_SUCCESS, "self_destruct")));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        addEvent(commandAck(CommandHandleState.COMMAND_SUCCESS, "rover_stop"));
+        reset();
+    }
+
+}

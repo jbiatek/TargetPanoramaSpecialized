@@ -1,0 +1,13 @@
+#@using jpf-symbc
+@using tplex
+@using jpf-tplex
+
+target=PanoramaDriver
+listener=${listener},edu.umn.crisys.spf.SymbolicSequenceListener
+classpath=bin
+
+seqlistener.output=randomseq.txt
+
+search.class=edu.umn.crisys.spf.RandomSearch
+search.RandomSearch.path_limit=5
+search.depth_limit=500
